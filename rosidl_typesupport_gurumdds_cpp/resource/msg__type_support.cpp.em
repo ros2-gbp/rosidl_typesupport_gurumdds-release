@@ -160,7 +160,7 @@ else:
     size_t size = @(member.type.size);
 @[    else]@
     size_t size = ros_message.@(member.name).size();
-    if (size > (std::numeric_limits<dds_Long>::max)()) {
+    if (size > (std::numeric_limits<uint32_t>::max)()) {
       throw std::runtime_error("array size exceeds maximum DDS sequence size");
     }
 @[      if isinstance(member.type, BoundedSequence)]@
@@ -377,6 +377,8 @@ else:
         fprintf(stderr, "failed to convert dds_Wstring to u16string\n");
         return false;
       }
+@[        elif isinstance(member.type.value_type, BasicType)]@
+      ros_message.@(member.name)[i] = dds_message.@(member.name)_[i];
 @[        elif isinstance(member.type.value_type, NamespacedType)]@
       if (!@('::'.join(member.type.value_type.namespaces))::typesupport_gurumdds_cpp::dds_to_ros(*dds_message.@(member.name)_[i], ros_message.@(member.name)[i])) {
         return false;

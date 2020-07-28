@@ -1,0 +1,40 @@
+ros-dashing-gurumdds-cmake-module (0.7.6-1bionic) bionic; urgency=high
+
+
+
+ -- junhui <junhui@gurum.cc>  Sun, 05 Jul 2020 15:00:00 -0000
+
+ros-dashing-gurumdds-cmake-module (0.7.5-1bionic) bionic; urgency=high
+
+  * Updated packages to use gurumdds-2.6
+  * Contributors: junho
+
+ -- junhui <junhui@gurum.cc>  Wed, 03 Jun 2020 15:00:00 -0000
+
+ros-dashing-gurumdds-cmake-module (0.7.4-1bionic) bionic; urgency=high
+
+  * updated packages to use gurumdds-2.5
+  * Contributors: hyeonwoo
+
+ -- junhui <junhui@gurum.cc>  Wed, 18 Dec 2019 15:00:00 -0000
+
+ros-dashing-gurumdds-cmake-module (0.7.3-1bionic) bionic; urgency=high
+
+  * CoreDDS is renamed to GurumDDS
+  * Contributors: junho
+
+ -- junhui <junhui@gurum.cc>  Sun, 17 Nov 2019 15:00:00 -0000
+
+ros-dashing-gurumdds-cmake-module (0.7.2-1bionic) bionic; urgency=high
+
+
+
+ -- junhui <junhui@gurum.cc>  Wed, 07 Aug 2019 15:00:00 -0000
+
+ros-dashing-gurumdds-cmake-module (0.7.1-1bionic) bionic; urgency=high
+
+
+
+ -- junhui <junhui@gurum.cc>  Tue, 11 Jun 2019 15:00:00 -0000
+
+

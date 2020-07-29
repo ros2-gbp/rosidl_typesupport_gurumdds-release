@@ -132,7 +132,6 @@ def _modify(filename, pkg_name, msg_name, is_srv):
 
 
 def add_seq_number(lines):
-
     changed = True
     while changed:
         changed = False

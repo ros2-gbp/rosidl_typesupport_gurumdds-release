@@ -1,3 +1,26 @@
+## rosidl_typesupport_gurumdds (foxy) - 1.0.3-1
+
+The packages in the `rosidl_typesupport_gurumdds` repository were released into the `foxy` distro by running `/usr/local/bin/bloom-release --ros-distro foxy --track foxy rosidl_typesupport_gurumdds` on `Mon, 07 Dec 2020 02:11:40 -0000`
+
+The `gurumdds_cmake_module` package was released.
+
+Version of package(s) in repository `rosidl_typesupport_gurumdds`:
+
+- upstream repository: https://github.com/ros2/rosidl_typesupport_gurumdds.git
+- release repository: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
+- rosdistro version: `1.0.2-1`
+- old version: `1.0.2-1`
+- new version: `1.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.40`
+
+
 ## rosidl_typesupport_gurumdds (dashing) - 0.7.8-1
 
 The packages in the `rosidl_typesupport_gurumdds` repository were released into the `dashing` distro by running `/usr/local/bin/bloom-release --ros-distro dashing --track dashing rosidl_typesupport_gurumdds --no-pull-request` on `Fri, 04 Dec 2020 06:45:43 -0000`

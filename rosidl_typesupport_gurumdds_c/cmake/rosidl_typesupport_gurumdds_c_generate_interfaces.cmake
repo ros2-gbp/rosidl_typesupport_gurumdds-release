@@ -131,7 +131,7 @@ endif()
 ament_target_dependencies(${rosidl_generate_interfaces_TARGET}${_target_suffix}
   "rmw"
   "rosidl_typesupport_gurumdds_cpp"
-  "rosidl_generator_c"
+  "rosidl_runtime_c"
   "rosidl_typesupport_interface")
 if(WIN32)
   target_compile_definitions(${rosidl_generate_interfaces_TARGET}${_target_suffix}
@@ -165,8 +165,7 @@ target_include_directories(${rosidl_generate_interfaces_TARGET}${_target_suffix}
 )
 ament_target_dependencies(${rosidl_generate_interfaces_TARGET}${_target_suffix}
   "GurumDDS"
-  "rosidl_typesupport_gurumdds_c"
-  "${PROJECT_NAME}__rosidl_typesupport_gurumdds_cpp")
+  "rosidl_typesupport_gurumdds_c")
 foreach(_pkg_name ${rosidl_generate_interfaces_DEPENDENCY_PACKAGE_NAMES})
   set(_msg_include_dir "${${_pkg_name}_DIR}/../../../include/${_pkg_name}/msg/dds_gurumdds_c")
   set(_srv_include_dir "${${_pkg_name}_DIR}/../../../include/${_pkg_name}/srv/dds_gurumdds_c")

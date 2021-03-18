@@ -2,12 +2,9 @@
 Changelog for package rosidl_typesupport_gurumdds_c
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2020-06-04)
+0.8.3 (2020-06-04)
 ------------------
 * Updated packages to use gurumdds-2.6
-* Fixed include paths
-* Replaced rosidl_generator\_* with rosidl_runtime\_*
-* Fixed indents
 * Contributors: junho
 
 0.8.2 (2019-12-19)

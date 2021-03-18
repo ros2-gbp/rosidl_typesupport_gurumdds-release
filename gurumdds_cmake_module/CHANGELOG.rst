@@ -2,21 +2,21 @@
 Changelog for package gurumdds_cmake_module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.0 (2021-03-16)
+0.8.6 (2021-03-16)
 ------------------
 * Update packages to use gurumdds-2.7
 * Change maintainer
 * Contributors: Youngjin Yun
 
-1.0.2 (2020-07-29)
+0.8.5 (2020-07-29)
 ------------------
 * Change maintainer
 * Contributors: junho
 
-1.0.1 (2020-07-28)
+0.8.4 (2020-07-06)
 ------------------
 
-1.0.0 (2020-06-04)
+0.8.3 (2020-06-04)
 ------------------
 * Updated packages to use gurumdds-2.6
 * Contributors: junho

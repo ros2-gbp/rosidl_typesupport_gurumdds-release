@@ -1,3 +1,26 @@
+## rosidl_typesupport_gurumdds (galactic) - 2.0.0-3
+
+The packages in the `rosidl_typesupport_gurumdds` repository were released into the `galactic` distro by running `/usr/bin/bloom-release --rosdistro galactic --track galactic rosidl_typesupport_gurumdds --edit` on `Tue, 04 May 2021 07:07:22 -0000`
+
+The `gurumdds_cmake_module` package was released.
+
+Version of package(s) in repository `rosidl_typesupport_gurumdds`:
+
+- upstream repository: https://github.com/ros2/rosidl_typesupport_gurumdds.git
+- release repository: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
+- rosdistro version: `2.0.0-2`
+- old version: `2.0.0-2`
+- new version: `2.0.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_typesupport_gurumdds (eloquent) - 0.8.6-1
 
 The packages in the `rosidl_typesupport_gurumdds` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent --track eloquent rosidl_typesupport_gurumdds --edit` on `Thu, 18 Mar 2021 06:32:22 -0000`

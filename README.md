@@ -37,4 +37,4 @@ gurumdds
 ## Branches
 There are three active branches in this project: master, galactic and foxy.
 New changes made in [ROS2 repository](https://github.com/ros2) will be applied to the master branch, so this branch might be unstable.
-If you want to use this project with ROS2 Rolling Ridley or Foxy Fitzroy, please use master or foxy branch, respectively.
+If you want to use this project with ROS2 Galactic Geochelone or Foxy Fitzroy, please use galactic or foxy branch, respectively.

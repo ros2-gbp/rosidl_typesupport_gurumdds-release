@@ -1,3 +1,30 @@
+## rosidl_typesupport_gurumdds (humble) - 3.1.1-1
+
+The packages in the `rosidl_typesupport_gurumdds` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble rosidl_typesupport_gurumdds` on `Mon, 09 May 2022 06:27:49 -0000`
+
+The `gurumdds_cmake_module` package was released.
+
+These packages were explicitly ignored:
+- `rosidl_typesupport_gurumdds_c`
+- `rosidl_typesupport_gurumdds_cpp`
+
+Version of package(s) in repository `rosidl_typesupport_gurumdds`:
+
+- upstream repository: https://github.com/ros2/rosidl_typesupport_gurumdds.git
+- release repository: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
+- rosdistro version: `3.1.0-1`
+- old version: `3.1.0-1`
+- new version: `3.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_typesupport_gurumdds (rolling) - 4.0.0-1
 
 The packages in the `rosidl_typesupport_gurumdds` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rosidl_typesupport_gurumdds` on `Mon, 09 May 2022 05:43:28 -0000`
